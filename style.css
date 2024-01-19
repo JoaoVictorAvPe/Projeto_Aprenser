@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+:root {
+    --menufooter_bg_color: #2A2A2A;
+    --menu_font_color: #FED001;
+    --sobre_bg_color: #003464;
+    --cursos_bg_color: #FAFAFA;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    max-width: 2000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    background-color: var(--menufooter_bg_color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.menu img {
+    width: 10%;
+    margin-left: 5%;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin-right: 10%;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: var(--menu_font_color);
+    border: solid 2px;
+    padding: 1em;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu ul a:hover {
+    background-color: var(--menu_font_color);
+    color: black;
+    transition-duration: .5s;
+}
+
+.header_conteudo {
+    background: linear-gradient(to top, yellow, white);
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto {
+    align-self: center;
+    width: 30%;
+}
+
+.texto p{
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.texto a {
+    display: block;
+    padding: 1em 2em;
+    font-size: 2rem;
+    background-color: var(--menu_font_color);
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: black;
+    color: var(--menu_font_color);
+    outline: 5px solid;
+    transition: .3s;
+}
+
+main {
+    background-color: var(--cursos_bg_color);
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    padding: 2.5em;
+    margin: 0;
+}
+
+.cursos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: var(--cursos_bg_color);
+}
+
+.card {
+    width: 402px;
+    background-color: white;
+    box-shadow: 0 0 1px black;
+    border-radius: 6px 6px 0 0;
+}
+
+.card .conteudo {
+    padding: 2em;
+}
+
+.conteudo a {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.conteudo a:hover {
+    text-decoration: underline;
+}
+
+.conteudo p {
+    font-size: 1.5rem;
+    color: #959595;
+}
+
+.mais_cursos {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: var(--menu_font_color);
+    text-align: center;
+    width: fit-content;
+    margin: 3em auto 5em;
+    font-size: 2rem;
+    padding: .7em 1.7em;
+    border-radius: 5px;
+}
+
+.sobre {
+    background-color: var(--sobre_bg_color);
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sobre img {
+    align-self: flex-end;
+}
+
+.sobre .sobre_conteudo {
+    width: 45%;
+    height: 80%;
+    color: white;
+    align-self: center;
+}
+
+.sobre_conteudo h1 {
+    font-size: 4rem;
+}
+
+.sobre_conteudo p {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.contato {
+    width: 1276px;
+    margin: auto;
+}
+
+.map {
+    margin-bottom: 20px;
+}
+
+.contato p {
+    text-align: right;
+    margin: 0;
+    color: gray;
+    font-size: 2rem;
+}
+
+footer {
+    margin-top: 40px;
+    height: 100px;
+    background-color: var(--menufooter_bg_color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+

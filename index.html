@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="JoãoVictorAvPe">
-    <title>aprenser</title>
+    <title>Aprenser</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,41 +19,58 @@
                 <li><a href="">contatos</a></li>
             </ul>
         </nav>
-        <p>O saber é o que transforma nosso SER</p>
-        <a href="">saiba mais</a>
+
+        <div class="header_conteudo">
+            <div class="texto">
+                <p>O saber é o que transforma nosso SER</p>
+                <a href="" class="botao">saiba mais</a>
+            </div>
+            <img src="imagens/HeroImage.png" alt="mulher cheirando flor">
+        </div>
     </header>
 
     <main>
+        <h1 class="titulo">Principais Cursos</h1>
         <section class="cursos">
-            <h1>Principais Cursos</h1>
-
             <div class="card">
-                <h1>Design para webG</h1>
-                <p>O curso Design para Web é perfeito para aqueles que desejam aprender a criar designs atraentes e
-                    funcionais
-                    para
-                    sites e aplicativos móveis.</p>
+                <img src="imagens/curso-design.png" alt="">
+                <div class="conteudo">
+                    <a href="" class="titulo_curso">Design para web</a>
+                    <p>O curso Design para Web é perfeito para aqueles que desejam aprender a criar designs atraentes e
+                        funcionais
+                        para
+                        sites e aplicativos móveis.</p>
+                </div>
             </div>
 
             <div class="card">
-                <h1>Front End Developer</h1>
-                <p>Aprenda HTML, CSS e Javascript e crei interfaces ricas e semânticas para páginas web, aplicativos
-                    on-line ou
-                    até
-                    mesmo aplicações para aparelhos celulares</p>
+                <img src="imagens/curso-design-1.png" alt="">
+                <div class="conteudo">
+                    <a href="" class="titulo_curso">Front End Developer</a>
+                    <p>Aprenda HTML, CSS e Javascript e crei interfaces ricas e semânticas para páginas web, aplicativos
+                        on-line ou
+                        até
+                        mesmo aplicações para aparelhos celulares</p>
+                </div>
             </div>
 
             <div class="card">
-                <h1>Back End Developer</h1>
-                <p>Com este curso você vai dominar uma linguagem back-end a sua escolha, um sistema de banco de dados e
-                    aprenderá
-                    como
-                    funciona o protocolo HTTP na prática.</p>
+                <img src="imagens/curso-design-2.png" alt="">
+                <div class="conteudo">
+                    <a href="" class="titulo_curso">Back End Developer</a>
+                    <p>Com este curso você vai dominar uma linguagem back-end a sua escolha, um sistema de banco de
+                        dados e
+                        aprenderá
+                        como
+                        funciona o protocolo HTTP na prática.</p>
+                </div>
             </div>
         </section>
+        <a href="" class="mais_cursos botao">Ver mais cursos</a>
+
         <section class="sobre">
             <img src="imagens/nossa-escola.png" alt="menina estudando">
-            <div class="conteudo">
+            <div class="sobre_conteudo">
                 <h1>Nossa escola</h1>
                 <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola
                     de
@@ -71,8 +89,13 @@
         </section>
 
         <section class="contato">
-            <h1>Contatos</h1>
-            <img src="imagens/map.png" alt="mapa" class="map">
+            <h1 class="titulo">Contatos</h1>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1661.2572282021774!2d-49.37466403203087!3d-20.815692166273514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1705694695574!5m2!1spt-BR!2sbr"
+                    width="1276" height="525" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
             <p>Av. da Liberdade, 1001</p>
             <p>Tel.: +351 21 123 456</p>
             <p>E-mail: contato@aprenser.com</p>
